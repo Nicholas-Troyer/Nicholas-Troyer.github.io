@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ink'd Impressions</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital@0;1&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital@0;1&family=Source+Sans+Pro:ital@0;1&display=swap"
+        rel="stylesheet">
+
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <nav class="fullnav">
+        <div class="coverimagenav">
+            <a href="index.html" class="logohome"><img src="images/Inverted Color/Inkd Inverted Color 800x600.png"
+                    alt="Inkd Impression logo" width="600px" class="coverimage"></a>
+        </div>
+        <nav id="navbar">
+            <a href="index.html">Home</a>
+            <a href="aboutus.html">About Us</a>
+            <a href="services.html">Services</a>
+            <a href="#" class="comingsoon">Our Store</a>
+            <a href="fundraising.html"></a>
+            <a href="contact.html">Contact Us</a>
+        </nav>
+    </nav>
+    <main>
+        <div class="centercontent">
+            <div class="card">
+                <img src="images/screen-printing-5.jpg" alt="shirts" width="250px">
+                <p class="cardTitle">Screen Printing</p>
+                <p class="cardDesc">Screenprinting is a process that using a mesh screen and squegee, ink is applied to
+                    a shirt that has had the design on it, so that the design gets made.</p>
+            </div>
+            <div class="card">
+                <img src="images/sublimation.jpg" alt="shirts" width="250px">
+                <p class="cardTitle">Sublimation</p>
+                <p class="cardDesc">Sublimation uses heat and pressure to apply a design to the desired object via
+                    sublimation paper.</p>
+            </div>
+            <div class="card">
+                <img src="images/embroidery.jpg" alt="shirts" width="250px" height="150px">
+                <p class="cardTitle">Embroidery</p>
+                <p class="cardDesc">Embroidery is like sewing ontop of an already made object, you use a needle and thread
+                    to create the design ontop of the object. </p>
+            </div>
+            <div class="card">
+                <img src="images/DTF Printing.jpg" alt="shirts" width="250px">
+                <p class="cardTitle">DTF Printing</p>
+                <p class="cardDesc">DTF (Direct to Film) is a process that prints a design onto fabric and poly blends, using a similar method to sublimation.</p>
+            </div>
+            <div class="card">
+                <img src="images/shirts.jpg" alt="shirts" width="250px" height="150px;">
+                <p class="cardTitle">Promotional</p>
+                <p class="cardDesc">Do you want to promote your brand, why not get a cool shirt to do so? If so, Ink'd Impressions has you covered.</p>
+            </div>
+            <div class="card">
+                <img src="images/fundraising.png" alt="shirts" width="250px" height="150px;">
+                <p class="cardTitle">Fundraisers</p>
+                <p class="cardDesc">Local community fundraisers are great, and we want to help support that with our shirts.</p>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <div class="mainfooter">
+            <div class="footerlinks">
+                <a href="index.html" class="footerlink">Home</a>
+                <a href="contact.html" class="footerlink">Contact Us</a>
+            </div>
+            <a href="index.html" class="logohomefooter"><img src="images/Main Logo/Inkd Main Logo cropped.png" alt="Inkd Impression logo" class="coverimage" width="220px"></a>
+            <div class="footerlinks">
+                <a href="services.html" class="footerlink">Service</a>
+                <a href="#" class="comingsoon">Store</a>
+            </div>
+        </div>
+    </footer>
+    <script>
+        window.onscroll = function () { myFunction() };
+
+        var navbar = document.getElementById("navbar");
+        var sticky = navbar.offsetTop;
+
+        function myFunction() {
+            if (window.pageYOffset >= sticky) {
+                navbar.classList.add("sticky")
+            } else {
+                navbar.classList.remove("sticky");
+            }
+        }
+    </script> <!--From W3 schools for sticky nav bar https://www.w3schools.com/howto/howto_js_navbar_sticky.asp-->
+</body>
+
+</html>

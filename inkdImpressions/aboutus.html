@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ink'd Impressions</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital@0;1&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital@0;1&family=Source+Sans+Pro:ital@0;1&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <nav class="fullnav">
+        <div class="coverimagenav">
+            <a href="index.html" class="logohome"><img src="images/Inverted Color/Inkd Inverted Color 800x600.png" alt="Inkd Impression logo" width="600px" class="coverimage"></a>
+        </div>
+        <nav id="navbar">
+            <a href="index.html">Home</a>
+            <a href="aboutus.html">About Us</a>
+            <a href="services.html">Services</a>
+            <a href="#" class="comingsoon">Our Store</a>
+            <a href="fundraising.html"></a>
+            <a href="contact.html">Contact Us</a>
+        </nav>
+    </nav>
+    <div>
+        <div class="centercontentabout">
+            <div class="leftaboutusparagraph">
+                <p>Welcome to Ink'd Impressions where we specalize in screen printing, sublimation, DTF printing, embroidery, and promotional printing services. We take pride in connecting with our customers and we understand the importance of timely delivery when it comes to our customers' needs and we work hard to provide the fastest turnaround possible. Our team is dedicated tow kring in the shop six days a week to ensure a speedy delivery, so that companies and organizations can get their names out there. </p>
+            </div>
+            <div style="clear:left;">
+
+            </div>
+            <div class="rightaboutusparagraph">
+                <p>Whether you're a small business looking to promote your brand, an event planner looking for custom merchandise, or a non-profit organization raising funds for a cause, we've got you covered. With our dedication to quality, attention to detail, and passion for printing, we're confident that we can help you achieve your goals.</p>
+            </div>
+            <div style="clear:right;">
+
+            </div>
+            <div class="leftaboutusparagraph">
+                <p>At Ink'd Impressions, we believe in building relationships with our customers and working together to create unique and customized products that meet their needs. Our goal is to make the process as easy and stress-free as possible, and we will work closely with you to ensure that your project is compelted to your satisfaction. </p>
+            </div>
+            <div style="clear:both;">
+
+            </div>
+            <div class="centercontent">
+                <div class="mainparagraph">
+                    <p class="maintext">Thank you for considering us for your printing needs.</p>
+                    <p class="maintext">We look forward to working with you, contact us today to get started!</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <div class="mainfooter">
+            <div class="footerlinks">
+                <a href="index.html" class="footerlink">Home</a>
+                <a href="contact.html" class="footerlink">Contact Us</a>
+            </div>
+            <a href="index.html" class="logohomefooter"><img src="images/Main Logo/Inkd Main Logo cropped.png" alt="Inkd Impression logo" class="coverimage" width="220px"></a>
+            <div class="footerlinks">
+                <a href="services.html" class="footerlink">Service</a>
+                <a href="#" class="comingsoon">Store</a>
+            </div>
+        </div>
+    </footer>
+    <script>
+        window.onscroll = function() {myFunction()};
+        
+        var navbar = document.getElementById("navbar");
+        var sticky = navbar.offsetTop;
+        
+        function myFunction() {
+          if (window.pageYOffset >= sticky) {
+            navbar.classList.add("sticky")
+          } else {
+            navbar.classList.remove("sticky");
+          }
+        }
+        </script> <!--From W3 schools for sticky nav bar https://www.w3schools.com/howto/howto_js_navbar_sticky.asp-->
+</body>
+</html>

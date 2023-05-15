@@ -1,0 +1,230 @@
+* {
+    margin: 0px;
+}
+body {
+    background-color: #343434;
+}
+a {
+    text-decoration: none;
+    color:#343434;
+    font-weight: bold;
+    font-family: 'Poppins', sans-serif;
+    padding: 10px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+#navbar {
+    background-color: #f0482c;
+    display: flex;
+    justify-content: center;
+}
+.coverimagenav {
+    display: flex;
+    justify-content: center;
+}
+.fullnav {
+    padding-bottom: 25px;
+    margin-bottom: 20px;
+}
+a:hover {
+    background-color: #ec5c24;
+}
+p {
+    color: #ec5c24;
+    font-size: 2em;
+}
+.mainparagraph {
+    box-shadow: 10px 10px #f0482c;
+    background-color: white;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    flex-flow: column;
+    width: 50%;
+}
+.maintext {
+    font-size: 4em;
+    color: #ec5c24;
+}
+.centercontent {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 0% 16% 0% 16%;
+}
+.leftaboutusparagraph {
+    float: left;
+    box-shadow: 10px 10px #f0482c;
+    background-color: white;
+    display: flex;
+    text-align: center;
+    width: 50%;
+    margin-bottom: 75px;
+}
+.rightaboutusparagraph {
+    float: right;
+    box-shadow: -10px -10px #f0482c;
+    background-color: white;
+    display: flex;
+    text-align: center;
+    width: 50%;
+    margin-bottom: 20px;
+}
+.comingsoon:hover {
+    cursor: not-allowed;
+}
+.floatleft {
+    float: left;
+}
+.floatright {
+    float: right;
+}
+.submaincontent {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+.logohome:hover {
+    background-color: #343434;
+}
+.logohome {
+    margin: 0px;
+    padding: 0px;
+}
+.mainfooter {
+    background-color: #f0482c;
+    margin-top: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.footerlinks {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    font-size: 1.5em;
+}
+.footerlink {
+    text-decoration: none;
+    color:#343434;
+    font-weight: bold;
+    font-family: 'Poppins', sans-serif;
+    margin: 0px;
+}
+.footerlink:hover {
+    background-color: rgba(0,0,0,0);
+    color: white;
+}
+.logohomefooter {
+    width: 200px;
+}
+.logohomefooter:hover {
+    background-color:#f0482c;
+}
+.comingsoonfooter:hover {
+    cursor: not-allowed;
+    background-color: rgba(0,0,0,0);
+    color: white;
+}
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+  }
+  .card {
+    margin-right: 100px;
+    background-color: #f0482c;
+    width: 250px;
+    height: 350px;
+    box-shadow: 5px 5px white, -5px -5px white;
+    margin-bottom: 50px;
+  }
+  .cardDesc {
+    font-size: 1.2em;
+    color: white;
+  }
+  .cardTitle {
+    color: #343434;
+    margin-bottom: 15px;
+  }
+  main {
+    display: flex;
+    flex-direction: wrap;
+  }
+  .form {
+    display: flex;
+    flex-direction: row;
+    width: fit-content;
+    background-color: #f0482c
+  }
+  input {
+    margin-bottom: 25px;
+  }
+  .centercontentabout {
+    flex: block;
+    justify-content: center;
+    flex-direction: column;
+  }
+  .centercontentcontact {
+    display: flex;
+    justify-content: center;
+  }
+
+@media only screen and (max-width: 1200px) {
+    .maintext {
+        font-size: 2em;
+    }
+    p {
+        font-size: 1.5em;
+    }
+    .welcomeparagraph {
+        width: 100%
+    }
+    .px1200 {
+        display: none;
+    }
+  }
+  @media only screen and (max-width: 800px) {
+    .submaincontent {
+        justify-content: center;
+    }
+    p {
+        font-size: 1em;
+    }
+    .maintext {
+        font-size: 1.5em;
+    }
+    .px768 {
+        display: none;
+    }
+    a {
+        font-size: 0.8em;
+    }
+    .leftaboutusparagraph {
+        float: none;
+        width: 100%;
+    }
+    .rightaboutusparagraph  {
+        float: none;
+        width: 100%;
+    }
+    .centercontentabout {
+        display: flex;
+    }
+}
+    @media only screen and (max-width: 600px) {
+        .coverimage {
+            max-width: 450px;
+        }
+  }
+  @media only screen and (max-width: 576px) {
+    a {
+        font-size: 0.6em;
+    }
+    p {
+        font-size: 0.8em;
+    }
+}
+  /*
+  #17a398 might be a good shout 
+  */

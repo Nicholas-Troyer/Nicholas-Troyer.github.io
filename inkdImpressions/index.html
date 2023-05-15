@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital@0;1&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital@0;1&family=Source+Sans+Pro:ital@0;1&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="styles.css">
+    <title>Ink'd Impressions</title>
+</head>
+<body>
+    <nav class="fullnav">
+        <div class="coverimagenav">
+            <a href="index.html" class="logohome"><img src="images/Inverted Color/Inkd Inverted Color 800x600.png" alt="Inkd Impression logo" width="600px" class="coverimage"></a>
+        </div>
+        <nav id="navbar">
+            <a href="index.html">Home</a>
+            <a href="aboutus.html">About Us</a>
+            <a href="services.html">Services</a>
+            <a href="#" class="comingsoon">Our Store</a>
+            <a href="fundraising.html"></a>
+            <a href="contact.html">Contact Us</a>
+        </nav>
+    </nav>
+    <div class="main">
+        <div class="centercontent" style="margin-bottom: 50px;">
+            <div class="mainparagraph">
+                <p class="maintext">Welcome to Ink'd Impressions</p>
+                <p style="color: #343434;"> Ink'd Impressions or formerly known as Nixa Screen Printing is a veteran owned buisness providing you with all your screen printing needs</p>
+                <p class="maintext">We print the ink so you can think.</p>
+            </div>
+        </div>
+        <div class="submaincontent">
+            <img src="images/legit-e1582582822663.jpg" alt="Shirt" class="px1200">
+            <img src="images/legit-2-e1582582803233.jpg" alt="Shirt" class="px768">
+            <img src="images/legit3-e1582582782871.png" alt="Shirt">
+        </div>
+    </div>
+    <footer>
+        <div class="mainfooter">
+            <div class="footerlinks">
+                <a href="index.html" class="footerlink">Home</a>
+                <a href="contact.html" class="footerlink">Contact Us</a>
+            </div>
+            <a href="index.html" class="logohomefooter"><img src="images/Main Logo/Inkd Main Logo cropped.png" alt="Inkd Impression logo" class="coverimage" width="220px"></a>
+            <div class="footerlinks">
+                <a href="services.html" class="footerlink">Service</a>
+                <a href="#" class="comingsoon">Store</a>
+            </div>
+        </div>
+    </footer>
+    <script>
+        window.onscroll = function() {myFunction()};
+        
+        var navbar = document.getElementById("navbar");
+        var sticky = navbar.offsetTop;
+        
+        function myFunction() {
+          if (window.pageYOffset >= sticky) {
+            navbar.classList.add("sticky")
+          } else {
+            navbar.classList.remove("sticky");
+          }
+        }
+        </script> <!--From W3 schools for sticky nav bar https://www.w3schools.com/howto/howto_js_navbar_sticky.asp-->
+</body>
+</html>

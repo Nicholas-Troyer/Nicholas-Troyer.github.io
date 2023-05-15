@@ -1,0 +1,31 @@
+body {
+    background-color: Blue;
+}
+
+table,td,th {
+    border: 2px orange solid;
+}
+th, td {
+    padding: 10px;
+    text-align: center;
+}
+th, .sidebar {
+    background-color: #2b4e2d
+}
+tr:nth-child(even){
+    background-color: #e8e8e8
+}
+tr:nth-child(odd){
+    background-color: white;
+}
+table{
+    margin: 100px 0px 0px 200px;
+    width: 80%;
+    opacity: 0.85;
+}
+.corner{
+    text-decoration-line:underline;
+}
+td {
+    width: 75%;
+}
