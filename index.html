@@ -9,11 +9,147 @@
     <title>Document</title>
 </head>
 <body>
-    <nav class="nav">
-        <a class="nav-link active" aria-current="page" href="#">Active</a>
-        <a class="nav-link" href="#">Link</a>
-        <a class="nav-link" href="#">Link</a>
-        <a class="nav-link disabled">Disabled</a>
+    <nav class="navbar navbar-expand-lg">
+        <div class="container-fluid">
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link" href="#section0">Classes I've Taken</a>
+                  </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#CIS130" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  CIS130
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                  <li><a class="dropdown-item" href="#section1">About Me Project</a></li>
+                  <li><a class="dropdown-item" href="#section2">Schedule Project</a></li>
+                  <li><a class="dropdown-item" href="#section3">SeaBubbles Project</a></li>
+                  <li><a class="dropdown-item" href="#section4">Inkd Impressions Project</a></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#section5">Future Classes</a>
+              </li>
+            </ul>
+          </div>
+        </div>
       </nav>
+      <div class="header">
+        <h1>Classes I've Taken</h1>
+      </div>
+      <div id="section0" class="horizontal">
+        <div class="card current-classes" style="width: 18rem;">
+            <div class="card-body">
+              <h5 class="card-title">Intro To Computer Programming</h5>
+              <p class="card-text">This was my first computer programming course. Despite the setbacks of the teacher I passed with a B and nearly an A.</p>
+            </div>
+          </div>
+          <div class="card current-classes" style="width: 18rem;">
+            <div class="card-body">
+              <h5 class="card-title">Web Development I</h5>
+              <p class="card-text">This is the class that effectively taught me how to program a web page, and showed me how to do get github to make a live webpage for me. I passed with a (INSERT GRADE HERE)</p>
+            </div>
+          </div>
+          <div class="card current-classes ended" style="width: 18rem;">
+            <div class="card-body">
+              <h5 class="card-title">C# Programming I</h5>
+              <p class="card-text">This was effectively a continuation of Intro to Computer Programming I learned how to use Visual Studio to create projects via the console and forms. I passed with a (INSERT GRADE HERE)</p>
+            </div>
+          </div>
+      </div>
+      <div class="header">
+        <h1>CIS130</h1>
+      </div>
+      <div id="section1" class="showcase">
+        <div class="card" style="width: 18rem;">
+            <div class="card-body">
+              <h5 class="card-title">About Me</h5>
+              <p class="card-text">This was the first actual project that I created in html and css. Whilst not the best looking, as I tried to reperesent by this card, it was merely a starting point.</p>
+              <a href="aboutMe" class="card-link" target="_blank">About Me</a>
+            </div>
+          </div>
+          <img src="images/AboutmePreview.jpg" alt="" width="750px">
+      </div>
+      <div id="section2" class="showcase">
+        <img src="images/schedulepreview.png" alt="e" height="500px">
+        <div class="card" style="width: 18rem; margin-top: 200px;" id="schedule">
+            <div class="card-body">
+              <h5 class="card-title">Schedule</h5>
+              <p class="card-text">This was the one and only project I used Tables in. And my first demostration of wanting to make life easier down the road, as I didn't combine the cells into one, so that when the schedule changes it can be updated without adding new code.</p>
+              <a href="schedule" class="card-link" target="_blank" id="schedulelink">Schedule</a>
+            </div>
+          </div>
+      </div>
+      <div id="section3" class="showcase">
+        <div class="card" style="width: 18rem; margin-top: 200px;" id="SeaBubbles">
+            <div class="card-body">
+              <h5 class="card-title">SeaBubbles</h5>
+              <p class="card-text">This was a page I worked on with a group using Figma as a starting point for each of the pages. Whilst mine could have looked better with a fixed height for the text boxes, and better text for the bottom it still looks good.</p>
+              <a href="seaBubbles/FAQ.html" class="card-link" target="_blank" id="SeaBubbleslink">SeaBubbles</a>
+            </div>
+          </div>
+          <img src="images/faqpage.jpg" alt="e" height="500px">
+      </div>
+      <div id="section4" class="showcase">
+        <img src="images/inkdpreview.jpg" alt="e" height="500px">
+        <div class="card" style="width: 18rem; margin-top: 200px;" id="inkdImpressions">
+            <div class="card-body">
+              <h5 class="card-title">Inkd Impressions</h5>
+              <p class="card-text">This was a contender for one of the sites that Ink'd Impressions would use for the end of the class, whilst Fundraising and the store page is unfinished, that is by design as I did not know how to do an e-commerce page, nor did I know of any local fundraisers in Springfield, and since it was more than likely a fluid topic that it would be beneficial for it to remain blank at the moment.</p>
+              <a href="inkdImpressions" class="card-link" target="_blank" style="color: white">Ink'd Impressions</a>
+            </div>
+          </div>
+      </div>
+      <div class="header">
+        <h1>Future Classes</h1>
+      </div>
+      <div id="section0" class="horizontal">
+        <div class="card future-classes" style="width: 18rem;">
+            <div class="card-body">
+              <h5 class="card-title">Java Programming</h5>
+              <p class="card-text">Similar to C# except your programming in Java, this will be my first experience in Java.</p>
+            </div>
+          </div>
+          <div class="card future-classes" style="width: 18rem;">
+            <div class="card-body">
+              <h5 class="card-title">Web Development II</h5>
+              <p class="card-text">Second Class in WebDev where I will be learning Javascript to go along with my websites.</p>
+            </div>
+          </div>
+          <div class="card future-classes ended" style="width: 18rem;">
+            <div class="card-body">
+              <h5 class="card-title">C# Programming II</h5>
+              <p class="card-text">The advanced form of C# Programming I.</p>
+            </div>
+          </div>
+          <div class="card future-classes ended" style="width: 18rem;">
+            <div class="card-body">
+              <h5 class="card-title">Database and Query</h5>
+              <p class="card-text">Creating Databases.</p>
+            </div>
+          </div>
+          <div class="card future-classes ended" style="width: 18rem;">
+            <div class="card-body">
+              <h5 class="card-title">Mobile App Development</h5>
+              <p class="card-text">Developing mobile apps.</p>
+            </div>
+          </div>
+          <div class="card future-classes ended" style="width: 18rem;">
+            <div class="card-body">
+              <h5 class="card-title">Software Engineering Project</h5>
+              <p class="card-text">Practice for becoming a software engineer such as converting old code to new.</p>
+            </div>
+          </div>
+          <div class="card future-classes ended" style="width: 18rem;">
+            <div class="card-body">
+              <h5 class="card-title">Computer Architecture</h5>
+              <p class="card-text">Overview of Computer Architecture, at it's most basic form, in terms of actual hardware.</p>
+            </div>
+          </div>
+      </div>
 </body>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
 </html>
